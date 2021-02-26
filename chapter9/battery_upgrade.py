@@ -39,7 +39,16 @@ class ElectricCar(Car):
         """ Electric cars don't have gas tanks. """
         print("This car doesn't need a gas tank!")
 
-        
+
+class Battery:
+    def __init__(self, capacity):
+        self.capacity = capacity
+
+    def upgrade_battery(self):
+        if self.capacity != 100:
+            self.capacity = 100
+
+
 my_new_car = Car('audi', 'a4', 2019)
 print(my_new_car.get_descriptive_name())
 my_new_car.read_odometer()

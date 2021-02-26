@@ -38,6 +38,8 @@ class User:
         self.login_attempts = 0
 
 
+
+
 restaurant = Restaurant("happiness restaurant", "happiness")
 print(restaurant.number_served)
 

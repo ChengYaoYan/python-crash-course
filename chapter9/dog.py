@@ -17,4 +17,4 @@ class Dog:
 
 dog = Dog("nick", 1)
 dog.sit()
-dog.roll_over()
+    dog.roll_over()
