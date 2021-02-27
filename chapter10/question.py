@@ -4,4 +4,3 @@ with open("reasons.txt", "a") as file_object:
 		if reason == "":
 			break
 		file_object.write(f"{reason}\n")
-		print("python is very good")
